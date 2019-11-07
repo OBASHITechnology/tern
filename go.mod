@@ -1,4 +1,4 @@
-module github.com/jackc/tern
+module github.com/OBASHITechnology/tern
 
 go 1.12
 

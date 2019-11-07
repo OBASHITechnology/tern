@@ -219,6 +219,8 @@ func (m *Migrator) LoadMigrations(path string) error {
 	return nil
 }
 
+
+
 func (m *Migrator) evalMigration(tmpl *template.Template, sql string) (string, error) {
 	tmpl, err := tmpl.Parse(sql)
 	if err != nil {
